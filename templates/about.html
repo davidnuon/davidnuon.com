@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% set title="About David Nuon" %}
+
+{% block ec %}
+<link rel="stylesheet" href="css/about.css" media="all" type="text/css" />
+{% endblock %}
+
+{% block ej %}
+<script type="text/javascript" src="js/jquery.qtip-1.0.0-rc3.min.js"></script>
+<script type="text/javascript" >
+$( function () {
+	
+	var content_ = {
+		me:'<img src="img/me.png" alt="David Nuon" id="davidnuon"/>',
+		def:'Designer + Developer',
+	};
+
+
+$('#def').hover (
+	function () { $(this).html('designer-developer'); }, 
+	function () { $(this).html('desi-dev'); }
+)
+	
+$('#davidnuon').hide();
+$('#me').hover (
+	function () { 
+		$('#davidnuon').fadeIn(); 
+		$('#davidnuon').hover( function() {}, function() { $(this).fadeOut(); } );
+	}, 
+	function () {}
+)
+
+});
+
+
+</script>
+
+{% endblock %}
+
+{% block over_content %}
+    <!-- BigWrapper -->    
+        <div class="about-container"> 
+    <img src="img/me.png" alt="David Nuon" id="davidnuon"/>
+        	<p><strong>David Nuon</strong> is a <span class="hover_over" id="def">desi-dev</span> 
+            that enjoys playing with information. Efficiency and
+            effective use of information is what he strives for. He also looks 
+            like <span class="hover_over" id="me">this.</span>
+            Follow him on twitter <a href="http://www.twitter.com/davidnuon">here.</a>
+            Or you can email him <a href="mailto:david@davidnuon.com">here.</a>
+            His CV/Resume is also <a href="resume.html">here.</a>
+            </p>
+      </div>
+{% endblock %}

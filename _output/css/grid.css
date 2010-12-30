@@ -1,0 +1,35 @@
+.grid {
+	float:left;
+}
+.grid-500px {
+	width:470px;
+	padding:0 0 0 30px;
+}
+.grid-250px {
+	width:220px;
+	padding:0 0 0 30px;
+}
+.grid-480px {
+	width:440px;
+	padding:0 0 0 30px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix, .main-content-body {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix, html[xmlns] .main-content-body {
+	display: block;
+}
+ 
+* html .clearfix, * html .main-content-body {
+	height: 1%;
+}

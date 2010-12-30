@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mc-portfolio {
+	text-align:left;
+	width:1000px;
+	display:inline-block;
+}
+.mc-portfolio h2 {
+	margin:30px 0 0 0;
+	display:inline-block;
+}
+.portfolio-big-wrapper {
+	width:100%;
+	background:#eee;
+	text-align:center;
+}
+
+.elf {
+	height:151px;
+	color:#fff;
+	background:#6caffe;
+}
+.sammy {
+	height:241px;
+	color:#333;
+	background:#eee;
+}
+.bsd {
+	height:213px;
+	color:#333;
+	background:#F37521;
+}
+.redesign {
+	background:url(../portfolio/redesign-repi.png) repeat-x #eee;
+	height:533px;
+}
+.redesign > .mc-portfolio {
+	background:url(../portfolio/redesign.png) -80px 0px no-repeat;
+	height:533px;
+}
+.re-right {
+	margin:50px 0 0 0;
+}
+
+.ft {
+	background:url(../portfolio/412-bg.png) top center;
+	height:291px;
+}
+
+.ft-right {
+	margin:40px 0 0 0;
+}
+
+.vs {
+	background:url(../portfolio/vaelden-space.png) top center;
+	height:409px;
+}
+
+.vs-right {
+	margin:140px 0 0 0;
+}

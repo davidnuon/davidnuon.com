@@ -1,0 +1,57 @@
+.big-wrapper {
+	width:100%;
+	background:#333;
+}
+.about-container {
+	height:600px;
+}
+.about-container p {
+	color:#fff;
+	font-size:30px;
+	display:inline-block;
+	width:750px;
+	text-align:justify;
+	margin:180px 0 0 0;
+	text-shadow:rgba(0, 0, 0, .3) 0px 0px 10px;
+	position:relative;
+}
+#davidnuon {
+	position:absolute;
+	top:280px;
+	left:250px;
+	z-index:9000;
+}
+.about-container p strong {
+    font-family: 'Droid Sans', arial, serif;
+}
+.hover_over, .about-container p a {
+	cursor:pointer;
+	border-bottom:2px dashed #fff;
+	text-decoration:none;
+	color:#fff;
+}
+.main-content {
+	position:absolute;
+	left:0;
+	width:100%;
+	height:auto;
+}
+.main-content-body { 
+	text-align:left;
+min-height:90px;
+}
+/* GIANT DIV BLOCK */
+.main-image-shield {
+	height:220px;
+	text-indent:-9999px;
+}
+.labs {
+	color:#333 !important;
+	font-family: 'Lobster', arial, serif;
+	background:#fff;
+	font-size:90px !important;
+	text-align:center !important;
+	padding:20px;
+	border-radius:25px;
+	text-shadow:none !important;
+}

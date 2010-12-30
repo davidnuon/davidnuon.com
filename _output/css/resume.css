@@ -1,0 +1,107 @@
+
+/* Resume Styles */
+
+.wrapper {
+	width:800px;
+	display:inline-block;
+	padding:0 0 125px 0;
+}
+
+body.resume {
+    text-align:center;
+    background:#333;
+    font-size:1em;
+    font-family:"Nobile", sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    color:#fff;
+}
+body.resume h1, body.resume h2, body.resume h3 {
+    color:#fff;
+}
+body.resume .header {
+    text-align:left;
+    width:960px;
+    display:inline-block;
+}
+body.resume .header h1 {
+    width:720px;
+    float:left;
+	font-size:80px;
+	padding:0;
+	margin:0 0 -25px 0;
+}
+body.resume .header .contactlinks {
+    float:right;
+    width:240px;
+    color:#fff;
+    background:#444;
+    padding:0;
+}
+body.resume .header .contactlinks h2 {
+    border:none;
+    background:none;
+	color:#fff;
+}
+body.resume .header .contactlinks ul {
+   padding:0;
+   width:240px;
+}
+body.resume .header .contactlinks ul li {
+   list-style:none;
+   width:230px;
+   padding:0px 10px;
+}
+body.resume .header .contactlinks ul li a {
+    color:#fff;
+   padding:0;
+}
+body.resume .header .shortbio {
+    float:left;
+    width:720px;
+}
+body.resume .wrapper {
+    text-align:left;
+    width:960px;
+    display:inline-block;
+}
+body.resume .wrapper h2{
+    float:left;
+    width:209px;
+    padding:0 10px;
+    clear:both;
+    border-left:solid 5px #f3a407;
+    font-family:"Droid Sans", sans-serif;
+}
+body.resume .wrapper p {
+    float:right;
+    width:680px;
+    padding:5px 30px 0 0;
+}
+body.resume .wrapper a {
+    color:#fff;
+    font-weight:bold;
+    padding:5px;
+}
+body.resume .wrapper a:hover {
+    background:none;
+    padding:3px;
+}
+body.resume .wrapper ul, body.resume .wrapper ol {
+    float:right;
+    width:660px;
+    padding:5px 30px 0 20px;
+}
+body.resume .wrapper ul li {
+    list-style:square;
+}
+body.resume .wrapper ul > ul, body.resume .wrapper ol > ol, body.resume .wrapper ul > ol, body.resume .wrapper ol > ul{
+    float:none;
+    width:600px;
+    margin:0 0 110px 0;
+}
+hr {
+	display:none;
+}

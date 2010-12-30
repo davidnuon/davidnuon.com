@@ -1,0 +1,13 @@
+application: davidnuon-portfolio
+version: 2
+runtime: python
+api_version: 1
+default_expiration: "5m"
+
+handlers:
+- url: (.*)/
+  static_files: _output\1/index.html
+  upload: _output/index.html
+
+- url: /
+  static_dir: _output

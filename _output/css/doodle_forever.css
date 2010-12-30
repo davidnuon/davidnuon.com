@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* Base definitions */
+.big-wrapper {
+	width:100%;
+	background:#a9a9a9;
+	height:910px;
+}
+.main-container {
+	width:1000px;
+	display:inline-block;
+	position:relative;
+	height:910px;
+}
+.main-content {
+	position:absolute;
+	left:0;
+	width:100%;
+	height:auto;
+}
+.main-content-body { 
+	text-align:left;
+	min-height:690px;
+	display:block !important;
+}
+/* GIANT DIV BLOCK */
+.main-image-shield {
+	height:220px;
+	text-indent:-9999px;
+}

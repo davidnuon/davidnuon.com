@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block over_content %} 
+<div class="main-container">
+
+    <div class="article_navi">
+        <ol class="article-select">
+            {% for post in posts %}
+                {% if post.current %}
+                <li class="current"><a href="#">{{ post.title }}</a></li>
+                {% else %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+        <span class="current-article-date">{{ date }}</span>
+    </div>
+ 
+    <div class="main-content">
+    
+        <div class="main-image-shield">
+            <h1>{{ title }}</h1>
+        </div>
+        
+        <div class="main-content-body">
+            {{ content }}
+        </div>
+        
+    </div>
+    
+    <img src="{{ imageurl }}" alt="{{ title }}" />
+</div>
+{% endblock %}
