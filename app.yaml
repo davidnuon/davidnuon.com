@@ -2,12 +2,18 @@ application: davidnuon-portfolio
 version: 2
 runtime: python
 api_version: 1
-default_expiration: "5m"
+default_expiration: "4m"
 
 handlers:
+- url: /favicon.ico
+  static_files: _output\1/favicon.icon
+  upload: _output/favicon.icon
+  
 - url: (.*)/
   static_files: _output\1/index.html
   upload: _output/index.html
 
 - url: /
   static_dir: _output
+  
+
