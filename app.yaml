@@ -7,11 +7,11 @@ default_expiration: "4m"
 handlers:
 - url: /favicon.ico
   static_files: _output\1/favicon.icon
-  upload: _output/favicon.icon
+  upload: _output\1/favicon.icon
   
 - url: (.*)/
   static_files: _output\1/index.html
-  upload: _output/index.html
+  upload: _output\1/index.html
 
 - url: /
   static_dir: _output
