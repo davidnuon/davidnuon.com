@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<post>
+    <title>Ode to CMD.EXE</title>
+        
+    <content>
+        <p id="protip">Pronounce cmd.exe as C-M-D dot EXAY</p>
+        <div class="grid grid-480px aus" style="margin:50px 0 0 0">
+<h1>An Ode to cmd.exe<h1>
+
+
+<p>You've been with me
+since the past century
+From 3.1 to XP, and beyond.</p>
+
+<p>Oh, how I hate you so.
+You make selecting text
+so painful.</p>
+
+<p>Your formatting,
+wonky. You refuse to change
+size. It's like using a concerte block.</p>
+
+<p>Why, why cmd.exe?
+You've always been with me.
+I've hated you and tried to replace you.
+Go away.
+But you always stay.</p>
+
+<p>Damn you, cmd.exe</p>
+
+
+<p>(written in edit.com)</p>
+        </div>
+        
+    </content>
+    
+    <imageurl>content/command.png</imageurl>
+    
+    <extracss>
+        <link rel="stylesheet" href="css/cmd.css" media="all" type="text/css" />
+    </extracss>
+    
+    <extrajs></extrajs>
+</post>
+
