@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Base definitions */
+.big-wrapper {
+	width:100%;
+	background:#4b3951;
+	height:773px;
+	color:white;
+}
+.big-wrapper p {
+	margin:0 0 30px 0;
+}
+.ai-lp {
+	margin:0 0 0 0 !important;
+}
+.big-wrapper p span {
+	display:block;
+	margin:0 0 3px 0;
+}
+.main-container {
+	width:1000px;
+	display:inline-block;
+	position:relative;
+	height:773px;
+}
+.main-content {
+	position:absolute;
+	left:0;
+	width:100%;
+	height:auto;
+}
+.main-content-body { 
+	text-align:left;
+	min-height:690px;
+	display:block !important;
+}
+.ai-b {
+	background:rgba(0,0,0,.5);
+	padding:20px;
+	border-radius:10px;
+}
+/* GIANT DIV BLOCK */
+.main-image-shield {
+	height:180px;
+	text-indent:-9999px;
+}
+
+.protip {
+	text-indent:0px;
+	background:#333;
+	padding: 10px 25px;
+	display:inline-block;
+	color:#fff;
+	border-radius:5px;
+	position:absolute;
+	top:200px;
+	left:600px;
+}
+.protip a {
+	color:#fff;
+}
+
+.protip p {
+	margin:0;
+	padding:0;
+}
