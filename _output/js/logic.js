@@ -30,4 +30,9 @@ $( function () {
 		.replace(/#(\w+)/g, '#<a href="http://twitter.com/search?q=%23$1">$1</a>');
 		$('#footer_twitter').html(test);
 	});
+	
+	$('#copy').html('&copy;')
+	$('#p_ai span').each( function () {
+		$(this).html('&nbsp;&nbsp;&nbsp;&nbsp;' + $(this).html());
+	});
 });
