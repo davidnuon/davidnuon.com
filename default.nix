@@ -17,7 +17,9 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     mkdir -p $out
     python generate.py
-    cp -r _output/* $out
+    cp -r _output build
+    tar -czvf website.tar.gz build/*
+    cp -r website.tar.gz $out
   '';
 
   installPhase = ''
