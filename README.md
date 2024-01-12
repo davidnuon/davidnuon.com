@@ -1,4 +1,10 @@
- www.davidnuon.com runs on app engine, hence the app.yaml
+## How to use 
+
+1. Run `nix-shell`
+2. `pipenv shell`
+3. `pipenv install -r requirements.txt`
+4. `python generate.py`
+5. The output for web is in `_output`
 
 * All code is under the DO WHAT THE F*** YOU WANT TO PUBLIC LICENSE. 
   (http://sam.zoy.org/wtfpl/) with the following ammendment:
