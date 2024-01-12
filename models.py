@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
 from pyquery import PyQuery as pq
-import glob
 
 class Post:
-    title    = ''
-    url      = ''
-    date     = ''
-    content  = ''
-    imageurl = ''
-    extracss = ''
-    extrajs  = ''
+    def __init__(self):
+        self.title    = ''
+        self.url      = ''
+        self.date     = ''
+        self.content  = ''
+        self.imageurl = ''
+        self.extracss = ''
+        self.extrajs  = ''
     
     def spit_dict(self):
         return {
@@ -33,7 +33,7 @@ with open('./blogxml/slugs.txt', 'r') as slugs_txt:
 
 for n in post_files:
     
-    with open('./blogxml/' + n[0], 'r') as f:
+    with open('./blogxml/' + n[0], 'rb') as f:
         d = pq(f.read())
         g = Post()
         
