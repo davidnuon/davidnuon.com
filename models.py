@@ -33,7 +33,7 @@ with open('./blogxml/slugs.txt', 'r') as slugs_txt:
 
 for n in post_files:
     
-    with open('./blogxml/' + n[0], 'r') as f:
+    with open('./blogxml/' + n[0], 'rb') as f:
         d = pq(f.read())
         g = Post()
         
