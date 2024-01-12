@@ -1,11 +1,19 @@
 #!/usr/bin/python
 
+import pathlib
 from jinja2 import Environment, PackageLoader
 import models
 import os
+import shutil
 env = Environment(loader=PackageLoader('models', 'templates'))
 
+STATIC_DIR = './static/'
 OUTPUT_DIR = './_output/'
+
+static_dir_path = pathlib.Path(STATIC_DIR)
+output_dir_path = pathlib.Path(OUTPUT_DIR)
+
+shutil.copytree(static_dir_path, output_dir_path)
 
 template = env.get_template('blog-entry.html')
 resume = env.get_template('resume.html')
