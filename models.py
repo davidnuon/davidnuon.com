@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
 from pyquery import PyQuery as pq
-import glob
 
 class Post:
-    title    = ''
-    url      = ''
-    date     = ''
-    content  = ''
-    imageurl = ''
-    extracss = ''
-    extrajs  = ''
+    def __init__(self):
+        self.title    = ''
+        self.url      = ''
+        self.date     = ''
+        self.content  = ''
+        self.imageurl = ''
+        self.extracss = ''
+        self.extrajs  = ''
     
     def spit_dict(self):
         return {
