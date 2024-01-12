@@ -1,10 +1,7 @@
-## How to use 
+## Building
 
-1. Run `nix-shell`
-2. `pipenv shell`
-3. `pipenv install -r requirements.txt`
-4. `python generate.py`
-5. The output for web is in `_output`
+1. With nix installed, run `nix-build`
+5. The output will be in results
 
 * All code is under the DO WHAT THE F*** YOU WANT TO PUBLIC LICENSE. 
   (http://sam.zoy.org/wtfpl/) with the following ammendment:
